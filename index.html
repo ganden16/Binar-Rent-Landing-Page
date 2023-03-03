@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Landing Page</title>
+	
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
@@ -28,7 +29,7 @@
 							<a class="text-decoration-none text-dark px-3 pt-2 scale2" href="#why-us">Why Us</a>
 							<a class="text-decoration-none text-dark px-3 pt-2 scale2" href="#testimonial">Testimonial</a>
 							<a class="text-decoration-none text-dark px-3 pt-2 scale2" href="#faq">FAQ</a>
-							<a href="#" class="btn btn-success scale" style="width: 81px; height: 36px;">Register</a>
+							<a href="#" class="btn btn-success scale">Register</a>
 						</div>
 					</nav>
 					<nav id="nav-dua" class="pt-3 ps-2 d-flex justify-content-between d-sm-none"> 
@@ -112,7 +113,9 @@
 			<div class="row mt-3 px-5 ms-sm-5">
 				<div class="col-md-3 pb-4">
 					<div class="card px-3 pt-3 scale">
-						<img class="svg-icon" src="img/jempol.svg" alt="jempol">
+						<div class="ps-3">
+							<img class="svg-icon" src="img/jempol.svg" alt="jempol">
+						</div>
 						<div class="card-body">
 							<h3 class="card-title fw-bold">Mobil Lengkap</h3>
 							<p class="card-text">Tersedia banyak pilihan mobil, kondisi masih baru, bersih, dan terawat.</p>
@@ -121,7 +124,9 @@
 					</div>
 					<div class="col-md-3 pb-4">
 						<div class="card px-3 pt-3 scale">
-							<img class="svg-icon" src="img/price.svg" alt="jempol">
+							<div class="ps-3">
+								<img class="svg-icon" src="img/price.svg" alt="jempol">
+							</div>
 							<div class="card-body">
 								<h3 class="card-title fw-bold">Harga Murah</h3>
 								<p class="card-text">
@@ -132,7 +137,9 @@
 				</div>
 				<div class="col-md-3 pb-4">
 					<div class="card px-3 pt-3 scale">
-						<img class="svg-icon" src="img/24hrs.svg" alt="jempol">
+						<div class="ps-3">
+							<img class="svg-icon" src="img/24hrs.svg" alt="jempol">
+						</div>
 						<div class="card-body">
 						  <h3 class="card-title fw-bold">Layanan 24 Jam</h3>
 						  <p class="card-text">
@@ -143,7 +150,9 @@
 				</div>
 				<div class="col-md-3 pb-4">
 					<div class="card px-3 pt-3 scale">
-						<img class="svg-icon" src="img/professional.svg" alt="jempol">
+						<div class="ps-3">
+							<img class="svg-icon" src="img/professional.svg" alt="jempol">
+						</div>
 						<div class="card-body">
 						  <h3 class="card-title fw-bold">Sopir Professional</h3>
 						  <p class="card-text">
@@ -176,7 +185,7 @@
 									<img src="img/star1.png">
 								</div>
 								<p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti molestiae illum, libero est cum quibusdam eius, doloribus velit sequi unde expedita consequatur officiis eligendi rem accusantium! Alias, veniam praesentium?</p>
-								<strong>Alvin Ardi 21, Sidoarjo</strong>
+								<p class="fw-medium">Alvin Ardi 21, Sidoarjo</p>
 							</div>
 						</div>
 					</div>
@@ -193,7 +202,7 @@
 									<img src="img/star1.png">
 								</div>
 								<p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti molestiae illum, libero est cum quibusdam eius, doloribus velit sequi unde expedita consequatur officiis eligendi rem accusantium! Alias, veniam praesentium?</p>
-								<strong>Foo Barr 42, Surabaya</strong>
+								<p class="fw-medium">Foo Barr 42, Surabaya</p>
 							</div>
 						</div>
 					</div>
@@ -209,7 +218,7 @@
 									<img src="img/star1.png">
 								</div>
 								<p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti molestiae illum, libero est cum quibusdam eius, doloribus velit sequi unde expedita consequatur officiis eligendi rem accusantium! Alias, veniam praesentium?</p>
-								<strong>Elissa, Bromo</strong>
+								<p class="fw-medium">Elissa, Bromo</p>
 							</div>
 						</div>
 					</div>
@@ -234,12 +243,12 @@
 		</section>
 
 		<section id="faq" class="pt-5 mt-5">
-			<div class="row d-flex justify-content-center text-center">
-				<div class="col-md-5 pt-5">
-					<h2 class="fw-bold">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-5">
+					<h2 class="fw-bold ps-5">
 						Frequently Asked Question
 					</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+					<p class="ps-5">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
 				</div>
 				<div class="col-md-6 px-4">
 					<div class="accordion" id="accordionExample">
@@ -317,16 +326,16 @@
 				</div>
 				<div class="col-md-2 pb-3">
 					<a class="text-decoration-none text-dark" href="#our-services">
-						<strong class="d-block pb-3 scale">Our Services</strong>
+						<p class="d-block pb-1 scale">Our Services</p>
 					</a> 
 					<a href="#why-us" class="text-decoration-none text-dark">
-						<strong class="d-block pb-3 scale">Why Us</strong>
+						<p class="d-block pb-1 scale">Why Us</p>
 					</a> 
 					<a href="#testimonial" class="text-decoration-none text-dark"class="text-decoration-none text-dark">
-						<strong class="d-block pb-3 scale">Testimonial</strong>
+						<p class="d-block pb-1 scale">Testimonial</p>
 					</a> 
 					<a href="#faq" class="text-decoration-none text-dark">
-						<strong class="d-block pb-3 scale">FAQ</strong>
+						<p class="d-block pb-1 scale">FAQ</p>
 					</a> 
 				</div>
 				<div class="col-md-4 pb-3">
@@ -338,7 +347,7 @@
 					<a href="#" class="pe-3"><img class="scale2" src="img/twitch.svg" alt=""></a>
 				</div>
 				<div class="col-md-2 pb-3">
-					<p><span>&#169</span>Copyright Binar 2022</p>
+					<p>Copyright Binar 2022</p>
 					<a href="#header" class="btn btn-primary scale"></a>
 				</div>
 			</div>
